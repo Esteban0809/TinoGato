@@ -87,9 +87,17 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/bootstrap4/css/bootstrap-grid.min.css",
+              "src/assets/bootstrap4/css/otro-archivo.css" 
             ],
-            "scripts": []
+            
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "src/assets/bootstrap4/js/bootstrap.min.js",
+              "src/assets/bootstrap4/js/otro-archivo.js" 
+            ]
+            
           }
         }
       }
