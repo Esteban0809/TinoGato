@@ -1,8 +1,26 @@
 /* Estilos para la barra de navegación */
+
+/* navbar.component.css */
 .navbar {
-    background-color: #f8f9fa;
+    width: 100%;
+    background-color: #f8f9fa; /* Color de fondo del navbar */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Asegura que el navbar esté en la parte superior */
   }
   
+  
+  .navbar-nav {
+    width: 100%;
+    justify-content: space-around; /* Distribuir elementos a lo ancho */
+  }
+  
+  .nav-link {
+    padding: 0.5rem 1rem; /* Espaciado interno de los enlaces */
+  }
+  
+  /* Estilos para la barra de navegación */
   .navbar-brand {
     font-size: 1.5rem;
     font-weight: bold;

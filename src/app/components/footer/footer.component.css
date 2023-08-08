@@ -1,6 +1,10 @@
 .footer {
     background-color: #f8f9fa;
-    padding: 20px 0;
+    padding: 20px;
     color: #333;
-  }
-  
+    width: 100%;
+    position: fixed; /* Cambia a posición fija */
+    bottom: 0;
+    left: 0; /* Asegura que esté pegado a la izquierda */
+    right: 0; /* Asegura que esté pegado a la derecha */
+}
