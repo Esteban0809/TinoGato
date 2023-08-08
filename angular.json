@@ -88,15 +88,14 @@
             ],
             "styles": [
               "src/styles.css",
-              "src/assets/bootstrap4/css/bootstrap-grid.min.css",
-              "src/assets/bootstrap4/css/otro-archivo.css" 
+              "src/assets/bootstrap5/css/bootstrap.min.css"
             ],
             
+            
             "scripts": [
-              "node_modules/jquery/dist/jquery.min.js",
-              "src/assets/bootstrap4/js/bootstrap.min.js",
-              "src/assets/bootstrap4/js/otro-archivo.js" 
+              "src/assets/bootstrap5/js/bootstrap.min.js"
             ]
+            
             
           }
         }
