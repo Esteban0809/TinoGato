@@ -9,4 +9,7 @@
   }
   
   /* Agrega reglas específicas para la tienda aquí */
-  
+img{
+    width: 90%;
+    height: 90%;
+}
