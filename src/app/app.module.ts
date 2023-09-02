@@ -11,6 +11,12 @@ import { TiendaComponent } from './components/tienda/tienda.component';
 import { GaleriaComponent } from './components/galeria/galeria.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { ProductComponent } from './components/product/product.component';
+import { CartComponent } from './components/cart/cart.component';
+import { HomeComponent } from './components/home/home.component';
+import { ProductDetailsComponent } from './components/product-details/product-details.component';
+import { CheckoutComponent } from './components/checkout/checkout.component';
+import { CheckoutFormComponent } from './components/checkout-form/checkout-form.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +28,13 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     TiendaComponent,
     GaleriaComponent,
     ContactoComponent,
-    NavbarComponent
+    NavbarComponent,
+    ProductComponent,
+    CartComponent,
+    HomeComponent,
+    ProductDetailsComponent,
+    CheckoutComponent,
+    CheckoutFormComponent
   ],
   imports: [
     BrowserModule,
