@@ -1,18 +1,16 @@
-.container {
-    text-align: center;
-    margin-top: 100px;
-  }
-  
-  h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    margin-top: 50px;
-  }
-  p {
-    font-size: 16px;
-    
+/* tienda.component.css */
 
-  }
-  
-  /* Agrega reglas específicas para la tienda aquí */
-  
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Estilos adicionales para productos y diseño moderno */

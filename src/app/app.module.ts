@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
@@ -17,6 +16,11 @@ import { HomeComponent } from './components/home/home.component';
 import { ProductDetailsComponent } from './components/product-details/product-details.component';
 import { CheckoutComponent } from './components/checkout/checkout.component';
 import { CheckoutFormComponent } from './components/checkout-form/checkout-form.component';
+import { ListaCuadrosComponent } from './tienda/lista-cuadros/lista-cuadros.component';
+import { DetalleCuadroComponent } from './tienda/detalle-cuadro/detalle-cuadro.component';
+import { CarritoComponent } from './tienda/carrito/carrito.component';
+import { FiltrosComponent } from './tienda/filtros/filtros.component';
+import { MensajeCompraComponent } from './tienda/mensaje-compra/mensaje-compra.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +38,12 @@ import { CheckoutFormComponent } from './components/checkout-form/checkout-form.
     HomeComponent,
     ProductDetailsComponent,
     CheckoutComponent,
-    CheckoutFormComponent
+    CheckoutFormComponent,
+    ListaCuadrosComponent,
+    DetalleCuadroComponent,
+    CarritoComponent,
+    FiltrosComponent,
+    MensajeCompraComponent
   ],
   imports: [
     BrowserModule,
