@@ -6,7 +6,7 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { InicioComponent } from './components/inicio/inicio.component';
 import { AboutmeComponent } from './components/aboutme/aboutme.component';
-import { TiendaComponent } from './components/tienda/tienda.component';
+import { TiendaComponent } from './tienda/tienda.component';
 import { GaleriaComponent } from './components/galeria/galeria.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
