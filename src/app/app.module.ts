@@ -22,6 +22,7 @@ import { CarritoComponent } from './tienda/carrito/carrito.component';
 import { FiltrosComponent } from './tienda/filtros/filtros.component';
 import { MensajeCompraComponent } from './tienda/mensaje-compra/mensaje-compra.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
